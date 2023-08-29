@@ -4,4 +4,4 @@
 
 ## Ссылка на проект
 
-[Miami-parallax](https://artaleal.github.io/Miami---Parallax/);
+[Miami-parallax](https://artaleal.github.io/Miami---Parallax/)
