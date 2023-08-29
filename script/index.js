@@ -21,3 +21,11 @@ const sliderBg = new Swiper('.slider_bg', {
   spaceBetween: 20,
   slidesPerView: 3.5,
 });
+
+sliderMain.controller.control = sliderBg;
+
+document.querySelectorAll('.slider__item').forEach((slide) => {
+  slide.addEventListener('click', () => {
+    slide.classList.toggle('opened');
+  });
+});
