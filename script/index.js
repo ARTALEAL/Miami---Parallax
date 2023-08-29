@@ -29,3 +29,11 @@ document.querySelectorAll('.slider__item').forEach((slide) => {
     slide.classList.toggle('opened');
   });
 });
+
+// Text flow
+const description = document.querySelector('.description');
+sliderMain.on('slideChange', () => {
+  sliderMain.activeIndex > 0
+    ? description.classList.add('hidden')
+    : description.classList.remove('hidden');
+});
